@@ -1,0 +1,28 @@
+.comments {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    margin: 50px;
+    border: 2px solid #ddd;
+}
+
+.comment-title, .comment-body, .comment-email {
+    padding: 5px;
+}
+
+.comment-email, .comment-title, .comment-body, .header {
+    text-align: center;
+}
+
+.border-right {
+    border-right: 2px solid #ddd;
+}
+
+.border-bottom {
+    border-bottom: 2px solid #ddd;
+}
+
+.header {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}

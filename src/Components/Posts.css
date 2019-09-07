@@ -1,0 +1,38 @@
+.posts {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 50px;
+    border: 2px solid #ddd;
+}
+
+.post-title, .post-author {
+    padding: 5px;
+}
+
+.post-author, .post-title, .header {
+    text-align: center;
+}
+
+.border-right {
+    border-right: 2px solid #ddd;
+}
+
+.border-bottom {
+    border-bottom: 2px solid #ddd;
+}
+
+.header {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #2e6ea3;
+    text-decoration: none;
+}
